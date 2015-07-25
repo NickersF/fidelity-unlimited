@@ -3,3 +3,14 @@ fidelity unlimited custom css rules
 author: nicholas fazzolari
 date: 7/23/15
 */
+
+.tk-heading-thick {
+    font-family: "freight-display-pro",sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+.tk-proxima-thick {
+    font-family: "proxima-nova",sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+}
