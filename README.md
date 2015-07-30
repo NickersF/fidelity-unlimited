@@ -16,3 +16,10 @@ Tenative TODO list.
 * Bootstrap 3
 * SASS
 * TypeKit
+
+## Colors used:
+
+* Deep grey for background: #080808
+* Hinted red-grey for panels: #1C1919
+* Main text grey: #999999
+* Main text red: #961227
