@@ -27,6 +27,21 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 8px;
     margin-bottom: 0;
 }
+.bkg-hero {
+    border: 0px;
+    border-radius: 0;
+    background: rgba(0,0,0,0.5);
+}
+.vert-hero {
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+.vert-navtwo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .bkg-grey {
     border: 0px;
     border-radius: 0;
@@ -39,6 +54,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .text-grey {
     color: #CCCCCC;
+}
+.full-vh {
+    height: 50vh;
 }
 /*NAVIGATION COLORS*/
 /* unvisited link grey */
@@ -78,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
     background-image: url(../img/fu-console.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 0px;
 }
 .zero-marg {
     margin: 0;
@@ -89,4 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .contact-text {
     font-size: 24px;;
+}
+.opacitor {
+    opacity: 0.04;
 }
