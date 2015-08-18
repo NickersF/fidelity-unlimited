@@ -9,16 +9,21 @@ body {
     color: #CCCCCC;
     height: 100%;
 }
-.zero-margpad {
-    margin: 0;
-    padding: 0;
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: "proxima-nova",sans-serif;
     color: #961227;
     font-weight: 900;
 }
+.zero-margin {
+    margin: 0;
+    padding: 0;
+}
+.big-margin {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
 .navbar {
+
     background-color: #1C1919;
     border-radius: 0;
     font-size: 32px;
@@ -27,20 +32,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 8px;
     margin-bottom: 0;
 }
-.bkg-hero {
-    border: 0px;
-    border-radius: 0;
-    background: rgba(0,0,0,0.5);
-}
-.vert-hero {
-  position: relative;
-  top: 100%;
-  transform: translateY(-100%);
-}
 .vert-navtwo {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 100%;
+  transform: translateY(60%);
 }
 .bkg-grey {
     border: 0px;
@@ -89,26 +84,26 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "proxima-nova",sans-serif;
     font-weight: 900;
 }
+.contact-text {
+    font-size: 24px;
+}
+.opacitor {
+    opacity: 0.04;
+}
 /* custom layout classes */
 .hero-container {
     width: 100%;
-    height: 75vh;
+    height: 84vh;
     background-image: url(../img/fu-reels_BW.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
 }
-.zero-marg {
-    margin: 0;
-    padding: 0;
-}
-.big-margin {
-    margin-top: 64px;
-    margin-bottom: 64px;
-}
-.contact-text {
-    font-size: 24px;;
-}
-.opacitor {
-    opacity: 0.04;
+.hero-overlay {
+    border: 0px;
+    border-radius: 0;
+    background: rgba(0,0,0,0.5);
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
 }
