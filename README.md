@@ -18,7 +18,8 @@ Tenative TODO list.
 
 * Deep grey for background: #080808
 * Hinted red-grey for panels: #1C1919
+* Possible blue: #0066FF
 * Main text grey: #999999
 * Main text red: #961227
-* Main text green: #009900
+* Main text green: #339933
 * Main text light grey: #CCCCCC 
