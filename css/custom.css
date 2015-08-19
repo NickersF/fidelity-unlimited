@@ -47,9 +47,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
     background-color: #961227;
 }
-.text-grey {
-    color: #CCCCCC;
-}
 .full-vh {
     height: 50vh;
 }
@@ -91,7 +88,13 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.04;
 }
 .green-text {
-    color: #66FF33;
+    color: #009900;
+}
+.text-grey {
+    color: #CCCCCC;
+}
+.text-darkgrey {
+    color: dimgray;
 }
 /* custom layout classes */
 .hero-container {
