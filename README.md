@@ -1,12 +1,15 @@
 # www.fidelityunlimited.com
 Fidelity Unlimited web site re-design
 
+# We are live as of 9/1/2015 - Click above to check it out!
+
 ## TODO List 25/7/2015
 Tenative TODO list.
 
-* Clean Up Equipment List
-* Activate Links
-* Fine Tune Height Settings on Hero Image Components
+* Add Instagram logo/link
+* Create photo gallerie
+    ** Create prototype
+    ** Write Code
 
 ## Technologies used:
 * HTML5
