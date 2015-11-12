@@ -2,6 +2,9 @@
 // Author: Nenad Pantic, Nicholas Fazzolari
 // Date: 11/2/2015
 
+var colElems = [];
+var srcAtrrs = [];
+
 function changeVis() {
     'use strict';
     document.getElementById("imgoverlay").className = "gal-overlay-active";
@@ -13,14 +16,15 @@ function changeHid() {
 }
 
 // toggle visibility
-document.getElementById("tnsm").addEventListener('click', changeVis);
+document.getElementById("tnsmr1c1").addEventListener('click', changeVis);
 
 document.getElementById("imgoverlay").addEventListener('click', changeHid);
 
 // append divs to each row this function needs to be more extensible
 (function () {
     'use strict';
-    //function body
+    
+    //function to create a div which gets pushed into the row
     function createDiv() {
         var imageContainer = document.createElement("div");
         
@@ -28,6 +32,15 @@ document.getElementById("imgoverlay").addEventListener('click', changeHid);
         imageContainer.textContent = "Automatically Generated div Element";
         
         return imageContainer;
+    }
+    
+    // function which adds an img tag with src
+    
+    function createImgTag() {
+        var imgTag = document.createElement("img");
+        
+        imgTag.setAttribute
+        imgTag.className = "img-responsive";
     }
     
     function createAndModifyDivs() {
