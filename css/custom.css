@@ -74,6 +74,29 @@ h1, h2, h3, h4, h5, h6 {
 	color: #999999;
     font-size: 36px;
 }
+/* General link styling */
+a {
+    color: #961227;
+}
+a:active {
+    color: #999999;
+}
+a:hover {
+    color: #999999;
+}
+/* Red background link styling */
+#contact a:link {
+    color: #000;
+}
+#contact a:visited {
+    color: #000;
+}
+#contact a:hover {
+    color: #999999;
+}
+#contact a:active {
+    color: #000;
+}
 /* custom fonts */
 .freight {
     font-family: "freight-display-pro",sans-serif;
@@ -99,6 +122,9 @@ h1, h2, h3, h4, h5, h6 {
 .text-darkgrey {
     color: dimgray;
 }
+.glyph-sizer {
+    font-size: 48px;
+}
 /* custom layout classes */
 .hero-container {
     width: 100%;
@@ -115,6 +141,10 @@ h1, h2, h3, h4, h5, h6 {
     border: 0px;
     border-radius: 0;
     background: rgba(0,0,0,0.5);
+}
+.toplink-block {
+    display: block;
+    padding-top: 32px;
 }
 .gal-overlay-hidden {
     display: none;
@@ -135,8 +165,4 @@ h1, h2, h3, h4, h5, h6 {
     border: 12px;
     border-style: solid;
     border-color: #080808;
-}
-.gal-zoom-notice-hidden {
-}
-.gal-zoom-notice-active {
 }
